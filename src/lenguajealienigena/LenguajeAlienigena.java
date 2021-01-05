@@ -26,6 +26,22 @@ public class LenguajeAlienigena {
         D=Integer.parseInt(array[1]);
         N=Integer.parseInt(array[2]);
         
+        //Palabras 
+        String[] arrayWords = new String[D];
+        String linea="";
+        int i=0;
+        while(i<D){
+            linea=objBufferedReader.readLine();
+            arrayWords[i]=linea;
+            i++;
+        }
         
+        for(int j=0;j<D;j++){
+            System.out.println(arrayWords[j]);
+        }
+        
+        
+        
+
     }
 }
