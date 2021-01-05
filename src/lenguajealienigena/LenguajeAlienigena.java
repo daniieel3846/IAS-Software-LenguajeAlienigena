@@ -25,24 +25,7 @@ public class LenguajeAlienigena {
         L=Integer.parseInt(array[0]);
         D=Integer.parseInt(array[1]);
         N=Integer.parseInt(array[2]);
-        //Palabras D
-        String[] arrayWords;
-        /*
-        for(int i=1;i<=D;i++){
-            System.out.println("Hola");
-        }*/
         
         
-        
-        /*
-        try {
-            InputStreamReader a = new InputStreamReader(System.in);
-            BufferedReader b = new BufferedReader(a);
-            System.out.println("Escribe tu nombre: ");
-            String nombre = b.readLine();
-            System.out.println("Hola " + nombre);
-        }catch (IOException e){
-            System.err.println(e);
-        }*/
     }
 }
